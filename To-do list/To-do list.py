@@ -2,7 +2,7 @@ import tkinter as tk
 
 app=tk.Tk()
 app.title("To-do-List")
-app.geometry("550x400")
+app.geometry("600x600")
 app.iconbitmap("checklist.ico")
 app.configure(bg="#0B1D51")
 
@@ -24,7 +24,7 @@ checkboxes.pack(pady=15)
 
 def add_list():
     list_txt=entry.get().strip()
-    if list_txt!="":
+    if list_txt!="": 
         var=tk.IntVar()
         checkbox=tk.Checkbutton(checkboxes, text=list_txt, variable=var)
         checkbox.pack(anchor='w')
