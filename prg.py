@@ -1,5 +1,7 @@
 hi=input()
 if (hi=="hi"):
     print("equal")
-else:
+elif(hi!=hi):
     print("not equal")
+else:
+    print("Invalid")
