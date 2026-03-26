@@ -1,7 +1,6 @@
-hi=input()
-if (hi=="hi"):
-    print("equal")
-elif(hi!=hi):
-    print("not equal")
+a=int(input("Enter a no"))
+if(a%2==0):
+    print("Even")
 else:
-    print("Invalid")
+print("Odd")
+
