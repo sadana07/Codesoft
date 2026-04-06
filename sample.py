@@ -1,6 +1,6 @@
 a=int(input("Enter a no"))
-if(a%2==0):
-    print("Even")
-else:
+if(a%2!=0):
     print("Odd")
+else:
+    print("Even")
 
